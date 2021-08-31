@@ -1,0 +1,62 @@
+.container {
+    background: url(../images/landingpage.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: calc(100vh - 3px);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);   
+    
+  }
+  .container .buttonContainer {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 6;
+
+  }
+
+  .title {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-family: 'Sarabun', sans-serif;
+    border-bottom: 2px solid #110011;
+
+  }
+.title > h1 {
+  font-family: 'Sarabun', sans-serif;
+
+
+}
+
+
+  .descr {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    font-family: 'Sarabun', sans-serif;
+
+
+  }
+  
+  .descr > h3 {
+    border-top: 2px solid #110011;
+
+    font-family: 'Sarabun', sans-serif;
+
+  }
+
